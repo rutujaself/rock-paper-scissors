@@ -188,6 +188,11 @@ div.fadeIn {
     .intro h1{
         margin: 0 2rem;
         font-size: 2.7rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro h1 p{
+        margin: 0 4rem;
     }
     .intro button {
         width: 7rem;
