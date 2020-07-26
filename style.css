@@ -40,12 +40,10 @@ section {
 
 .intro h1 {
     font-size: 2.7rem;
-    display: flex;
-    flex-direction: row;
 }
 
-.intro h1 p{
-    margin-left: 0.7rem;
+.intro h1 p {
+    margin: 0 4rem;
 }
 
 .intro button,
