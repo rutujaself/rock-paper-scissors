@@ -182,6 +182,7 @@ div.fadeIn {
 {
     body {
         overflow: hidden;
+        position: fixed;
     }
     .score h2{
         font-size: 1.7rem;
