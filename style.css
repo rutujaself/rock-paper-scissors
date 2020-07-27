@@ -234,7 +234,31 @@ div.fadeIn {
     }
 }
 
-
+@media screen and (max-width: 320px) {
+    .score h2 {
+        font-size: 1.4rem;
+    }
+    .score p{
+        font-size: 1.4rem;
+    }
+    .winner {
+        font-size: 2rem;
+    }
+    .match {
+        margin-top: 1.3rem;
+    }
+    .player-hand,
+    .computer-hand {
+       width: 11rem;
+    }
+    .options button {
+        width: 5.5rem;
+        height: 7vh
+   }
+    .dev {
+        bottom: 2px;
+    }
+}
 
 
 
