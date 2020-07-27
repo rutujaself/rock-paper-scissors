@@ -234,6 +234,59 @@ div.fadeIn {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .score h2 {
+        font-size: 2rem;
+    }
+    .score p{
+        font-size: 2rem;
+    }
+    .winner {
+        font-size: 3rem;
+    }
+    .match {
+        margin-top: 0.6rem;
+    }
+    .player-hand,
+    .computer-hand {
+       width: 12rem;
+    }
+    .options button {
+        width: 5.5rem;
+        height: 7vh
+   }
+    .dev {
+        bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .score h2 {
+        font-size: 1.8rem;
+    }
+    .score p{
+        font-size: 1.8rem;
+    }
+    .winner {
+        font-size: 2.9rem;
+    }
+    .match {
+        margin-top: 0.6rem;
+    }
+    .player-hand,
+    .computer-hand {
+       width: 12rem;
+    }
+    .options button {
+        width: 5.5rem;
+        height: 7vh
+   }
+    .dev {
+        bottom: 2.5rem;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .score h2 {
         font-size: 1.4rem;
